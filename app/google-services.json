@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "983152538875",
+    "firebase_url": "https://rightway-cc29b-default-rtdb.firebaseio.com",
+    "project_id": "rightway-cc29b",
+    "storage_bucket": "rightway-cc29b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983152538875:android:f3e4ff71267b2bf6c3ac5e",
+        "android_client_info": {
+          "package_name": "com.gla.glaways"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq28j4liIqJGT2OT_s1-gcCcNn5upc5Dg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

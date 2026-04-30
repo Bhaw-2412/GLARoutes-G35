@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:paddingBottom="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Campus Gallery"
+                android:layout_gravity="center"
+                android:textColor="#FF9800"
+                android:textSize="28sp"
+                android:fontFamily="sans-serif-black"
+                android:layout_marginBottom="24dp" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Academic Blocks (B1 - B2)" android:textColor="#C5CAE9" android:textStyle="bold" android:layout_marginBottom="12dp"/>
+            <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollbars="none" android:layout_marginBottom="24dp">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+                    <com.google.android.material.card.MaterialCardView android:layout_width="280dp" android:layout_height="180dp" app:cardCornerRadius="24dp" android:layout_marginEnd="16dp" app:cardElevation="8dp" app:strokeColor="#40FFFFFF" app:strokeWidth="1dp">
+                        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                            <ImageView android:id="@+id/imgB1" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:src="@drawable/b1" />
+                            <View android:layout_width="match_parent" android:layout_height="match_parent" android:background="#33000000"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Block 1" android:textColor="#FFFFFF" android:layout_margin="12dp" android:textStyle="bold" android:background="@drawable/glass_bg" android:paddingHorizontal="12dp" android:paddingVertical="4dp"/>
+                            <com.google.android.material.button.MaterialButton android:id="@+id/btn360_B1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_alignParentBottom="true" android:layout_margin="12dp" android:text="360°" style="@style/Widget.MaterialComponents.Button.UnelevatedButton" app:icon="@android:drawable/ic_menu_rotate" app:backgroundTint="#FFFFFF" android:textColor="#1A237E" app:iconTint="#1A237E" app:cornerRadius="12dp"/>
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView android:layout_width="280dp" android:layout_height="180dp" app:cardCornerRadius="24dp" android:layout_marginEnd="16dp" app:cardElevation="8dp" app:strokeColor="#40FFFFFF" app:strokeWidth="1dp">
+                        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                            <ImageView android:id="@+id/imgB2" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:src="@drawable/b2" />
+                            <View android:layout_width="match_parent" android:layout_height="match_parent" android:background="#33000000"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Block 2" android:textColor="#FFFFFF" android:layout_margin="12dp" android:textStyle="bold" android:background="@drawable/glass_bg" android:paddingHorizontal="12dp" android:paddingVertical="4dp"/>
+                            <com.google.android.material.button.MaterialButton android:id="@+id/btn360_B2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_alignParentBottom="true" android:layout_margin="12dp" android:text="360°" style="@style/Widget.MaterialComponents.Button.UnelevatedButton" app:icon="@android:drawable/ic_menu_rotate" app:backgroundTint="#FFFFFF" android:textColor="#1A237E" app:iconTint="#1A237E" app:cornerRadius="12dp"/>
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Engineering Wing (B3 - B4)" android:textColor="#C5CAE9" android:textStyle="bold" android:layout_marginBottom="12dp"/>
+            <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollbars="none" android:layout_marginBottom="24dp">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+                    <com.google.android.material.card.MaterialCardView android:layout_width="280dp" android:layout_height="180dp" app:cardCornerRadius="24dp" android:layout_marginEnd="16dp" app:cardElevation="8dp">
+                        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:src="@drawable/b3" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Block 3" android:textColor="#FFFFFF" android:layout_margin="12dp" android:textStyle="bold" android:background="@drawable/glass_bg" android:padding="6dp"/>
+                            <com.google.android.material.button.MaterialButton android:id="@+id/btn360_B3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_alignParentBottom="true" android:layout_margin="12dp" android:text="360°" app:backgroundTint="#FFFFFF" android:textColor="#1A237E" app:icon="@android:drawable/ic_menu_rotate" app:iconTint="#1A237E" app:cornerRadius="12dp"/>
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView android:layout_width="280dp" android:layout_height="180dp" app:cardCornerRadius="24dp" android:layout_marginEnd="16dp" app:cardElevation="8dp">
+                        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:src="@drawable/b2" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Block 4" android:textColor="#FFFFFF" android:layout_margin="12dp" android:textStyle="bold" android:background="@drawable/glass_bg" android:padding="6dp"/>
+                            <com.google.android.material.button.MaterialButton android:id="@+id/btn360_B4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_alignParentBottom="true" android:layout_margin="12dp" android:text="360°" app:backgroundTint="#FFFFFF" android:textColor="#1A237E" app:icon="@android:drawable/ic_menu_rotate" app:iconTint="#1A237E" app:cornerRadius="12dp"/>
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Departmental Blocks (B5 - B6)" android:textColor="#C5CAE9" android:textStyle="bold" android:layout_marginBottom="12dp"/>
+            <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollbars="none" android:layout_marginBottom="24dp">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+                    <com.google.android.material.card.MaterialCardView android:layout_width="280dp" android:layout_height="180dp" app:cardCornerRadius="24dp" android:layout_marginEnd="16dp" app:cardElevation="8dp">
+                        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:src="@drawable/b1" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Block 5" android:textColor="#FFFFFF" android:layout_margin="12dp" android:textStyle="bold" android:background="@drawable/glass_bg" android:padding="6dp"/>
+                            <com.google.android.material.button.MaterialButton android:id="@+id/btn360_B5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_alignParentBottom="true" android:layout_margin="12dp" android:text="360°" app:backgroundTint="#FFFFFF" android:textColor="#1A237E" app:icon="@android:drawable/ic_menu_rotate" app:iconTint="#1A237E" app:cornerRadius="12dp"/>
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView android:layout_width="280dp" android:layout_height="180dp" app:cardCornerRadius="24dp" android:layout_marginEnd="16dp" app:cardElevation="8dp">
+                        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:src="@drawable/b2" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Block 6" android:textColor="#FFFFFF" android:layout_margin="12dp" android:textStyle="bold" android:background="@drawable/glass_bg" android:padding="6dp"/>
+                            <com.google.android.material.button.MaterialButton android:id="@+id/btn360_B6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_alignParentBottom="true" android:layout_margin="12dp" android:text="360°" app:backgroundTint="#FFFFFF" android:textColor="#1A237E" app:icon="@android:drawable/ic_menu_rotate" app:iconTint="#1A237E" app:cornerRadius="12dp"/>
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Computer Science Wing (B7 - B8)" android:textColor="#C5CAE9" android:textStyle="bold" android:layout_marginBottom="12dp"/>
+            <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollbars="none" android:layout_marginBottom="24dp">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+                    <com.google.android.material.card.MaterialCardView android:layout_width="280dp" android:layout_height="180dp" app:cardCornerRadius="24dp" android:layout_marginEnd="16dp" app:cardElevation="8dp">
+                        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:src="@drawable/b1" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Block 7" android:textColor="#FFFFFF" android:layout_margin="12dp" android:textStyle="bold" android:background="@drawable/glass_bg" android:padding="6dp"/>
+                            <com.google.android.material.button.MaterialButton android:id="@+id/btn360_B7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_alignParentBottom="true" android:layout_margin="12dp" android:text="360°" app:backgroundTint="#FFFFFF" android:textColor="#1A237E" app:icon="@android:drawable/ic_menu_rotate" app:iconTint="#1A237E" app:cornerRadius="12dp"/>
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView android:layout_width="280dp" android:layout_height="180dp" app:cardCornerRadius="24dp" android:layout_marginEnd="16dp" app:cardElevation="8dp">
+                        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:src="@drawable/b2" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Block 8" android:textColor="#FFFFFF" android:layout_margin="12dp" android:textStyle="bold" android:background="@drawable/glass_bg" android:padding="6dp"/>
+                            <com.google.android.material.button.MaterialButton android:id="@+id/btn360_B8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_alignParentBottom="true" android:layout_margin="12dp" android:text="360°" app:backgroundTint="#FFFFFF" android:textColor="#1A237E" app:icon="@android:drawable/ic_menu_rotate" app:iconTint="#1A237E" app:cornerRadius="12dp"/>
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Professional Courses (B9 - B10)" android:textColor="#C5CAE9" android:textStyle="bold" android:layout_marginBottom="12dp"/>
+            <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollbars="none" android:layout_marginBottom="24dp">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+                    <com.google.android.material.card.MaterialCardView android:layout_width="280dp" android:layout_height="180dp" app:cardCornerRadius="24dp" android:layout_marginEnd="16dp" app:cardElevation="8dp">
+                        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:src="@drawable/b1" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Block 9" android:textColor="#FFFFFF" android:layout_margin="12dp" android:textStyle="bold" android:background="@drawable/glass_bg" android:padding="6dp"/>
+                            <com.google.android.material.button.MaterialButton android:id="@+id/btn360_B9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_alignParentBottom="true" android:layout_margin="12dp" android:text="360°" app:backgroundTint="#FFFFFF" android:textColor="#1A237E" app:icon="@android:drawable/ic_menu_rotate" app:iconTint="#1A237E" app:cornerRadius="12dp"/>
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView android:layout_width="280dp" android:layout_height="180dp" app:cardCornerRadius="24dp" android:layout_marginEnd="16dp" app:cardElevation="8dp">
+                        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:src="@drawable/b2" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Block 10" android:textColor="#FFFFFF" android:layout_margin="12dp" android:textStyle="bold" android:background="@drawable/glass_bg" android:padding="6dp"/>
+                            <com.google.android.material.button.MaterialButton android:id="@+id/btn360_B10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_alignParentBottom="true" android:layout_margin="12dp" android:text="360°" app:backgroundTint="#FFFFFF" android:textColor="#1A237E" app:icon="@android:drawable/ic_menu_rotate" app:iconTint="#1A237E" app:cornerRadius="12dp"/>
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Management Wing (B11 - B12)" android:textColor="#C5CAE9" android:textStyle="bold" android:layout_marginBottom="12dp"/>
+            <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollbars="none" android:layout_marginBottom="24dp">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+                    <com.google.android.material.card.MaterialCardView android:layout_width="280dp" android:layout_height="180dp" app:cardCornerRadius="24dp" android:layout_marginEnd="16dp" app:cardElevation="8dp">
+                        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:src="@drawable/b1" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Block 11" android:textColor="#FFFFFF" android:layout_margin="12dp" android:textStyle="bold" android:background="@drawable/glass_bg" android:padding="6dp"/>
+                            <com.google.android.material.button.MaterialButton android:id="@+id/btn360_B11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_alignParentBottom="true" android:layout_margin="12dp" android:text="360°" app:backgroundTint="#FFFFFF" android:textColor="#1A237E" app:icon="@android:drawable/ic_menu_rotate" app:iconTint="#1A237E" app:cornerRadius="12dp"/>
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView android:layout_width="280dp" android:layout_height="180dp" app:cardCornerRadius="24dp" android:layout_marginEnd="16dp" app:cardElevation="8dp">
+                        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:src="@drawable/b2" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Block 12" android:textColor="#FFFFFF" android:layout_margin="12dp" android:textStyle="bold" android:background="@drawable/glass_bg" android:padding="6dp"/>
+                            <com.google.android.material.button.MaterialButton android:id="@+id/btn360_B12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:layout_alignParentBottom="true" android:layout_margin="12dp" android:text="360°" app:backgroundTint="#FFFFFF" android:textColor="#1A237E" app:icon="@android:drawable/ic_menu_rotate" app:iconTint="#1A237E" app:cornerRadius="12dp"/>
+                        </RelativeLayout>
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

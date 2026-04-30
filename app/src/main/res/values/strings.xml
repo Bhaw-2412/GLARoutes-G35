@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GLAways</string>
+    <string name="header_text">GLA University</string>
+    <string name="search_hint">Search block (or tap mic)...</string>
+    <string name="block1_text">Block 1</string>
+    <string name="block2_text">Block 2</string>
+    <string name="block3_text">Block 3</string>
+    <string name="block4_text">Block 4</string>
+    <string name="block1_info_text">● Block 1\nAdmission Room: 101\nFees Room: 201\nClassroom: 301\nLibrary: 401</string>
+    <string name="block2_info_text">● Block 2\nAdmission Room: 102\nFees Room: 202\nClassroom: 302\nLibrary: 402</string>
+    <string name="block3_info_text">● Block 3\nAdmission Room: 103\nFees Room: 203\nClassroom: 303\nLibrary: 403</string>
+    <string name="block4_info_text">● Block 4\nAdmission Room: 104\nFees Room: 204\nClassroom: 304\nLibrary: 404</string>
+    <string name="get_map_text">Get Map</string>
+    <string name="courses_fees_text">🛺 Free Ride (Visitors)</string>
+    <string name="help_book_text">Images</string>
+    <string name="visitor_registration_header_text">Visitor Registration</string>
+    <string name="full_name_label_text">Full Name *</string>
+    <string name="enter_your_full_name_hint">Enter your full name</string>
+    <string name="email_address_label_text">Email Address *</string>
+    <string name="enter_your_email_address_hint">Enter your email address</string>
+    <string name="extra_message_optional_label_text">Extra Message (Optional)</string>
+    <string name="I_am_at_Main_Gate_hint">I am at Main Gate and need a ride to Block 1.</string>
+    <string name="fields_are_required_text">* Fields are required.</string>
+    <string name="ready_to_connect_text">Ready to Connect</string>
+    <string name="save_and_send_text"> Save &amp; Send</string>
+    <string name="call_rider_text">📞 Call Rider</string>
+    <string name="Important_Note_for_Visitors_text">📜 Important Note for Visitors:</string>
+    <string name="visitor_3_rides_limit_text">● Visitors can avail a total of 3 FREE rides only.</string>
+    <string name="visitor_2_additional_guests_limit_text">● Maximum 2 additional guests can accompany the main visitor per ride.</string>
+    <string name="visitor_strictly_duration_text">● Rides are strictly limited to 30-40 minutes in duration.</string>
+    <string name="visitor_abusing_service_text">* Abusing this service may lead to permanent ban.</string>
+    <string name="en_text">ENG</string>  <string name="hi_text">HINDI</string>
+</resources>

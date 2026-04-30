@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">जीएलएवेस</string>
+    <string name="header_text">जीएलए विश्वविद्यालय</string>
+    <string name="search_hint">ब्लॉक खोजें (या माइक टैप करें)...</string>
+    <string name="block1_text">ब्लॉक 1</string>
+    <string name="block2_text">ब्लॉक 2</string>
+    <string name="block3_text">ब्लॉक 3</string>
+    <string name="block4_text">ब्लॉक 4</string>
+    <string name="block1_info_text">● ब्लॉक 1\nप्रवेश कक्ष: 101\nफीस कक्ष: 201\nकक्षा: 301\nपुस्तकालय: 401</string>
+    <string name="block2_info_text">● ब्लॉक 2\nप्रवेश कक्ष: 102\nफीस कक्ष: 202\nकक्षा: 302\nपुस्तकालय: 402</string>
+    <string name="block3_info_text">● ब्लॉक 3\nप्रवेश कक्ष: 103\nफीस कक्ष: 203\nकक्षा: 303\nपुस्तकालय: 403</string>
+    <string name="block4_info_text">● ब्लॉक 4\nप्रवेश कक्ष: 104\nफीस कक्ष: 204\nकक्षा: 304\nपुस्तकालय: 404</string>
+    <string name="get_map_text">नक्शा प्राप्त करें</string>
+    <string name="courses_fees_text">🛺 मुफ्त सवारी (विज़िटर)</string>
+    <string name="help_book_text"> फ़ोटोज़</string>
+    <string name="visitor_registration_header_text">विज़िटर पंजीकरण</string>
+    <string name="full_name_label_text">पूरा नाम *</string>
+    <string name="enter_your_full_name_hint">अपना पूरा नाम दर्ज करें</string>
+    <string name="email_address_label_text">ईमेल पता *</string>
+    <string name="enter_your_email_address_hint">अपना ईमेल पता दर्ज करें</string>
+    <string name="extra_message_optional_label_text">अतिरिक्त संदेश (वैकल्पिक)</string>
+    <string name="I_am_at_Main_Gate_hint">मैं मुख्य द्वार पर हूँ और मुझे ब्लॉक 1 के लिए सवारी की आवश्यकता है।</string>
+    <string name="fields_are_required_text">* फील्ड अनिवार्य हैं।</string>
+    <string name="ready_to_connect_text">कनेक्ट करने के लिए तैयार</string>
+    <string name="save_and_send_text"> सहेजें और भेजें</string>
+    <string name="call_rider_text">📞 राइडर को कॉल करें</string>
+    <string name="Important_Note_for_Visitors_text">📜 विज़िटर के लिए महत्वपूर्ण नोट:</string>
+    <string name="visitor_3_rides_limit_text">● विज़िटर कुल 3 मुफ्त सवारी का लाभ ले सकते हैं।</string>
+    <string name="visitor_2_additional_guests_limit_text">● प्रति सवारी मुख्य विज़िटर के साथ अधिकतम 2 अतिरिक्त मेहमान आ सकते हैं।</string>
+    <string name="visitor_strictly_duration_text">● सवारी केवल 30-40 मिनट की अवधि तक सीमित है।</string>
+    <string name="visitor_abusing_service_text">* इस सेवा का दुरुपयोग करने पर स्थायी प्रतिबंध लग सकता है।</string>
+    <string name="en_text">ENG</string>  <string name="hi_text">HINDI</string>
+</resources>
